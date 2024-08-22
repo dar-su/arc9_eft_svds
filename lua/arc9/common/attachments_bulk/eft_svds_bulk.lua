@@ -90,7 +90,7 @@ ATT.Category = {"eft_svds_barrel_mount"}
 ATT.Attachments = {
     {
         PrintName = "Bottom Tactical",
-        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big"},
+        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big", "eft_bipod"},
         Pos = Vector(1, 0, 0.95),
         Ang = Angle(0, 0, 180),
         Icon_Offset = Vector(0, 0, 0),
@@ -536,7 +536,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Bottom Tactical",
-        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big"},
+        Category = {"eft_tactical", "eft_tactical_top", "eft_tactical_top_big", "eft_bipod"},
         Pos = Vector(-6, 0, 1.2),
         Ang = Angle(0, 0, 180),
         Icon_Offset = Vector(0, 0, 0),
