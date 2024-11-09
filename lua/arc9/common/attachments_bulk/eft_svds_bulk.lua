@@ -327,7 +327,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "B2 Keymod",
-        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4"},
+        Category = {"eft_mount_keymod2","eft_mount_keymod_casv4", "eft_mount_keymod_bipod"},
         Pos = Vector(-12, 0, 1.9),
         Ang = Angle(0, 0, -90),
         Icon_Offset = Vector(0, 0, 0),
