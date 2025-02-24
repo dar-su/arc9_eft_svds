@@ -26,6 +26,7 @@ SWEP.StandardPresets = false
 
 SWEP.WorldModel = "models/weapons/w_snip_awp.mdl"
 SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_svds.mdl"
+SWEP.DefaultBodygroups = "000000000000000000"
 
 ------------------------- |||           Offsets            ||| -------------------------
 
