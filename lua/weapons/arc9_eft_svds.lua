@@ -5,21 +5,18 @@ SWEP.Spawnable = true
 
 ------------------------- |||           Trivia            ||| -------------------------
 
-ARC9:AddPhrase("eft_weapon_svds", "SVDS", "en")
-ARC9:AddPhrase("eft_weapon_svds", "СВДС", "ru")
-ARC9:AddPhrase("eft_weapon_svds", "SWDS", "uwu")
 SWEP.PrintName = ARC9:GetPhrase("eft_weapon_svds")
-SWEP.Description = [[The SVDS (Snáyperskaya Vintóvka Dragunóva Skladnáya - "Dragunov's Sniper Rifle with a foldable stock") sniper rifle was specially designed for Russian paratroopers and special forces units. Features a tubular metal stock that folds to the right side of the receiver (equipped with a synthetic shoulder pad and a fixed cheek riser) and a synthetic pistol grip. The barrel was also given a heavier profile, the receiver housing was strengthened, the gas cylinder block was improved and a ported, shorter conical flash suppressor was adopted. Chambered in 7.62x54R ammo.]]
+SWEP.Description = "eft_weapon_svds_desc"
 
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_marks")
+SWEP.Class = "eft_class_weapon_marks"
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_snip")
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = ARC9:GetPhrase("eft_trivia_act_kalash"),
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "7.62x54mmR",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"] = ARC9:GetPhrase("eft_trivia_act_gas"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_su"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "1991"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_kalash",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_762x54",
+    ["eft_trivia_act3"] = "eft_trivia_act_gas",
+    ["eft_trivia_country4"] = "eft_trivia_country_ussr",
+    ["eft_trivia_year5"] = "1991"
 }
 
 SWEP.StandardPresets = false 
