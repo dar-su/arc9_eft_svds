@@ -720,3 +720,40 @@ ATT.DropMagazineAmount = 1
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_svd_20_dropped.mdl"
 
 ARC9.LoadAttachment(ATT, "eft_svds_mag_20")
+
+
+///////////////////////////////////////      eft_mount_dovetail_caaxdrgl
+
+
+ATT = {}
+
+ATT.PrintName = "SVD CAA XD RGL receiver mount"
+ATT.CompactName = "XD RGL"
+ATT.Icon = Material("entities/eft_attachments/mount/dt_sagsvd.png", "mips smooth")
+ATT.Description = [[A quick-detach side clip mount with a Weaver/Picatinny rail for the SVD sniper rifle and compatibles, manufactured by CAA. ]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_dovetail_caa_xd_rgl.mdl"
+
+ATT.Category = {"eft_mount_dovetail_svd"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(-0.07, -2, 0)
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.ActivateElements = {"nolongrear"}
+
+ATT.Attachments = {
+    {
+        PrintName = "eft_cat_scope",
+        Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
+        Pos = Vector(1, 0.85+0.07, -2.05),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        -- ExtraSightDistance = 8
+    },
+}
+
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+
+ARC9.LoadAttachment(ATT, "eft_mount_dovetail_caaxdrgl")
